@@ -6,7 +6,7 @@ const BookCreate = () => {
   const { createBook } = useBooksContext();
 
   const handleChange = (event) => {
-    setTitle(event.target.value);
+    setTitle(event.target.value)
   }
   
   const handleSubmit = (event) => {
