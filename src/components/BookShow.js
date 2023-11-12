@@ -11,6 +11,7 @@ const BookShow = ({ book }) => {
   }
 
 const handleSubmit = () => {
+  // set show edit to false on form submit
     setShowEdit(false);
   }
 
