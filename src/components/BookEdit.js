@@ -9,6 +9,7 @@ const BookEdit = ({book, onSubmit}) => {
     setTitle(event.target.value);
   }
 
+  // logic to submit the form
   const handleSubmit = (event) => {
     event.preventDefault();
 
