@@ -8,6 +8,7 @@ const BookList = () => {
     return <BookShow key={book.id} book={book} />
   })
   
+  // return rendered books
   return (
     <div className="book-list">
       {renderedBooks}
