@@ -17,6 +17,7 @@ const handleSubmit = () => {
 
   let content = <h3>{book.title}</h3>;
 
+  // add to content only if showEdit is true
   if (showEdit) {
     content = <BookEdit onSubmit={handleSubmit} book={book}/>;
   }
