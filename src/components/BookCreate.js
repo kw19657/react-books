@@ -9,6 +9,7 @@ const BookCreate = () => {
     setTitle(event.target.value)
   }
   
+  // submit form on click
   const handleSubmit = (event) => {
     event.preventDefault();
     createBook(title);
