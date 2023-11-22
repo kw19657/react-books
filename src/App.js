@@ -6,6 +6,7 @@ import BooksContext from "./context/books";
 const App = () => {
   const { fetchBooks } = useContext(BooksContext)
 
+  // to load the books each time the main page loads
   useEffect(() => {
     fetchBooks();
   }, [fetchBooks])
