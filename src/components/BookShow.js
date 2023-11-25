@@ -22,6 +22,7 @@ const handleSubmit = () => {
     content = <BookEdit onSubmit={handleSubmit} book={book}/>;
   }
 
+  // returns the jsx
   return (
     <div className="book-show">
       <img
