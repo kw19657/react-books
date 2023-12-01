@@ -5,6 +5,7 @@ const BookCreate = () => {
   const [ title, setTitle ] = useState('');
   const { createBook } = useBooksContext();
 
+  // set the text in the input box to the title
   const handleChange = (event) => {
     setTitle(event.target.value)
   }
