@@ -19,6 +19,7 @@ const BookEdit = ({book, onSubmit}) => {
 
   }
 
+  // return the corresponding jsx
   return (
     <form onSubmit={handleSubmit} className="book-edit">
       <label>Title</label>
