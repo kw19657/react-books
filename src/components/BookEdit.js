@@ -12,6 +12,7 @@ const BookEdit = ({book, onSubmit}) => {
 
   // logic to submit the form
   const handleSubmit = (event) => {
+    // prevent the form from refreshing by default after submission
     event.preventDefault();
 
     onSubmit();
